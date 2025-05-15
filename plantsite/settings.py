@@ -11,7 +11,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-)atmc*yn!250m#
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 # Allow Render domain (replace with your actual Render domain)
-ALLOWED_HOSTS = ['your-app-name.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['plant-growth-predictor.onrender.com', 'localhost', '127.0.0.1']
+ 
 
 # Application definition
 INSTALLED_APPS = [
